@@ -1,0 +1,31 @@
+{
+  "name": "idea-exclude-cmd",
+  "version": "0.1.0",
+  "description": "exclude folders for idea command line tools",
+  "bin": {
+    "ideax": "bin/idea-exclude.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noyobo/idea-exclude-cmd.git"
+  },
+  "keywords": [
+    "idea-exclude"
+  ],
+  "author": "noyobo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noyobo/idea-exclude-cmd/issues"
+  },
+  "homepage": "https://github.com/noyobo/idea-exclude-cmd#readme",
+  "dependencies": {
+    "argv": "~0.0.2",
+    "colors-cli": "~1.0.7",
+    "find-up": "~2.0.0",
+    "glob": "~7.1.1",
+    "xmldom": "~0.1.27"
+  }
+}
